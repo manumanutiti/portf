@@ -1,0 +1,58 @@
+# Python general
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.python-version
+
+# Entorno Virtual
+venv/
+ENV/
+env/
+*.env
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Archivos de configuración de entorno
+.env
+.env.* 
+*.env.*
+
+# Archivos de configuración y secretos
+config/
+secrets/
+*.pem
+*.key
+*.crt
+
+# Archivos de IDEs y editores
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Log y bases de datos
+*.log
+*.sqlite3
+db.sqlite3
+*.db
+
+# Archivos de pruebas y cobertura
+.tox/
+.nox/
+.coverage
+coverage.*
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Archivos de despliegue
+.DS_Store
+*.bak
+*.swp
+*.pid
+
+# Archivos de sistema
+Thumbs.db
